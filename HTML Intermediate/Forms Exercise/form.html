@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <br>
+
+    <form action="" method="post">
+        <label for="">
+            <p>First Name: </p>
+            <input type="name" placeholder="Ex: John" id="user-firstName" name="name" required>
+        </label>
+        <label for="">
+            <p>Last Name: </p>
+            <input type="name" placeholder="Ex: Smith" id="user-lastName" name="lastName" required>
+        </label>
+
+        <label for="sex">
+            <p>Male: 
+                <input type="radio" name="sex" id="sex-male" required>
+            </p>
+        </label>
+        <label for="sex">
+            <p>Female: 
+                <input type="radio" name="sex" id="sex-female" required>
+            </p>
+        </label>
+        <label for="sex">
+            <p>Other: 
+                <input type="radio" name="sex" id="sex-other" required>
+            </p>
+        </label> 
+
+        <label for="email">
+            <p>Email: </p>
+            <input type="email" name="email" id="user-email" placeholder="john@mail.com" required>
+        </label>
+        <label for="password">
+            <p>Password: </p>
+            <input type="password" name="password" pattern=".{6,18}" id="user-password" placeholder="Your password" required>
+        </label>
+
+        <label for="birthday">
+            <p>Birthday:</p>
+            <select name="month" id="">
+                <option value="">Month</option>
+            </select>
+            <select name="day" id="">
+                <option value="">Day</option>
+            </select>
+            <select name="year" id="">
+                <option value="">Year</option>
+            </select>
+        </label>
+
+        <label for="terms">
+            <p>I agree with the terms and conditions
+            <input type="checkbox" name="terms" id="terms">
+            </p>
+        </label>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
