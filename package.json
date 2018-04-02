@@ -1,0 +1,20 @@
+{
+  "name": "webdev-bootcamp",
+  "version": "1.0.0",
+  "description": "All my projects, assignments and exercises from Web Developer Bootcamp course from Udemy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "html",
+    "css",
+    "udemy",
+    "course",
+    "js",
+    "express"
+  ],
+  "author": "Igor Martimiano",
+  "license": "MIT"
+}
