@@ -4,4 +4,4 @@ All my projects, assignments and exercises from the Udemy course [Web Developer 
 
 ---
 
-Course includes HTML, CSS, JS, jQuery, Node, Express, APIs, MongoDB and more.
+Course includes HTML, CSS, JS, Node, Express, APIs, MongoDB and more.
