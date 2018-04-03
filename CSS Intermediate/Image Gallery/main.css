@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 900;
+    font-family: Raleway, arial, sans-serif;
+    color: rgb(24, 24, 24);
+}
+
+
+header {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    height: 100px;
+    letter-spacing: 0.15em;
+}
+
+p {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 34px 0;
+    border-bottom: 2px solid #9b9b9b;
+}
+
+.gallery {
+    width: calc(100% - 20px);
+    margin: 40px auto 0;
+} 
+
+img {
+    width: 30%;
+    height: 380px;
+    margin: 0 1.50% 40px;
+}
+img:nth-child(3){
+    margin-right: 0;
+}
+img:nth-child(6){
+    margin-right: 0;
+}
+img:nth-child(9){
+    margin-right: 0;
+}
