@@ -1,18 +1,28 @@
+html {
+    font-size: 20px;
+}
+
 ::selection {
     background-color: rgb(28, 28, 28);
     color: #ffffff;
 }
 
-
-html {
-    font-size: 20px;
+.col__box {
+    border: 1px solid rgb(28, 28, 28);
+    text-align: center;
+    text-transform: lowercase;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
 }
 
 .col__box-green{
     background-color: rgb(123, 221, 114);
     color: #ffffff;
-    border: 1px solid rgb(28, 28, 28);
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
+}
+
+.col__box-blue{
+    background-color: rgb(114, 164, 221);
+    color: #ffffff;
+    border: none;
 }
