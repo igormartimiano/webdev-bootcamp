@@ -16,12 +16,12 @@ html {
     overflow: hidden;
 }
 
-.col__box-green{
+.col__box-green {
     background-color: rgb(123, 221, 114);
     color: #ffffff;
 }
 
-.col__box-blue{
+.col__box-blue {
     background-color: rgb(114, 164, 221);
     color: #ffffff;
     border: none;

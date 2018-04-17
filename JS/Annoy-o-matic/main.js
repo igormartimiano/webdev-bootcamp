@@ -1,6 +1,6 @@
 let answer = prompt('Are we there yet?');
 
-while(answer !== 'Yes' && answer !== 'yes' && answer !== 'y' && answer !== 'yea') {
+while(answer.indexOf('Yes') >= 0) {
     answer = prompt('Are we there yet?');
 }
 
