@@ -7,11 +7,11 @@ let ageCalc = () => {
         if (age > 122) {
             alert('Sugoi! You just broke the record of oldest person alive ever with ' + daysAlive + ' days being alive.');
         } else {
-            alert('You\'ve been alive for ' + daysAlive + ' days.\nThat\'s scary, I know.');
+            alert("You've been alive for " + daysAlive + " days.\nThat's scary, I know.");
         }
     } else {
         alert('Please insert a valid age.');
     }
-}
+};
 
 ageCalc();

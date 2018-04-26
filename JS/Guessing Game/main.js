@@ -1,4 +1,4 @@
-let guess  = parseInt(prompt('Guess a number'), 10);
+let guess = parseInt(prompt('Guess a number'), 10);
 let target = 10;
 
 let guessGame = (guess, target) => {
@@ -20,6 +20,4 @@ let guessGame = (guess, target) => {
     } else {
         alert('Please insert a valid number.');
     }
-}
-
-guessGame(guess, target);
+};
